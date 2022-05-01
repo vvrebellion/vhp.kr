@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .front-page {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    clip-path: circle(5%);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .front-page video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .second-page {
+    height: 100vh;
+  }
+  
+  .blend {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.3;
+  }
+  
+  #logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    /* fill: transparent; */
+  }
+  
+  .intro-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 4;
+  }
+  
+  .title {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+  }
+  
+  .sub-title {
+    font-size: 1.5rem;
+  }
+
+  .second-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .second-page h2 {
+    font-size: 6rem;
+  }
+  
+  .music-note {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.005);
+    z-index: 4;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background: white;
+  }
+
+  h2{
+    font-size: 5rem;
+  }
+  
+  ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+
+  a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(110, 47, 110);
+  }
+
+  .theo-page a{
+    font-size: 1.2rem; 
+  }
+
+  strong{
+    color: rgb(110, 47, 110); 
+  }
+
+
+  .first-page a{
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 5rem;
+  }
+
+  .about-page{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .about-page img{
+    height: 100vh ;
+  }
+
+  .about-page div{
+    text-align: left;
+    padding: 5rem;
+  }
+
+  .service-page{
+    height: 100vh;
+    background-color: white;
+    color: black;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .service-page img{
+    height: 80vh ;
+  }
+  .service-page div{
+    text-align: top;
+    padding: 5rem;
+  }
+
+  .theo-page{
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .theo-page img{
+    height: 100vh ;
+  }
+
+  .theo-page div{
+    text-align: left;
+    padding: 5rem;
+  }
+
+  .contact-page{
+    height: 100vh;
+    background-color: white
+    color: black;
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contact-page img{
+    height: 100vh ;
+  }
+  .contact-page div{
+    text-align: top;
+    padding: 5rem;
+  }
+
+
