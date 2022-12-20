@@ -1,0 +1,350 @@
+@import url(//db.onlinewebfonts.com/c/faec7b39028890b34621e55089f6e247?family=TerminaW00-Demi);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0px;
+    padding: 0;
+    font-family: TerminaW00-Demi;
+    overflow-x: hidden;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+body{
+    background-color: rgb(119,40,190);
+    background: linear-gradient(rgba(119,40,190,1), black);
+}
+
+.wrapper {
+  max-width: 100%;
+  overflow: hidden;
+  margin-bottom: 5%;
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  animation: marquee 10s linear infinite;
+  background-color: #fafaff;
+  opacity: 90%;
+}
+
+.marquee p {
+  display: inline-block;
+
+  color: black;
+
+  font-size: 5vw;
+  text-align: justify;
+  text-justify: inter-word;
+  
+}
+
+.nav-menu{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 1%;
+}
+
+button{
+  background-color: #DB5FBF;
+  /* mix-blend-mode: multiply; */
+  opacity: 0.25;
+  border: none;
+  color: white;
+  padding: .16vw .32vw;
+  text-align: center;
+  font-size:calc(10px + .8vw);
+  margin: 4vw 2vw;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 1vw;
+}
+
+button:hover {
+  background-color: black; /* Add a dark-grey background on hover */
+}
+
+span{
+  color: #DB5FBF;
+  text-decoration: underline;
+}
+
+span:hover {
+  color: #fafaff;
+  background-color: #DB5FBF;
+  opacity: 80%;
+}
+
+h1{
+  font-family: "TerminaW00-Demi";
+  font-size:calc(12px + 3.5vw);
+  text-align: center;
+  text-justify: inter-word;
+  
+  color: #FFFFFF;
+  }
+
+  h2{
+    font-family: "TerminaW00-Demi";
+    font-size:calc(12px + 2vw);
+    text-align: center;
+    text-justify: inter-word;
+    
+    color: #FFFFFF;
+    }
+
+
+.cell{
+  position: fixed;
+  left: 70%;
+  top: 2%;
+  
+  max-width: 100%;
+  height: auto;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+  filter: blur(25px);
+  }
+
+  .chrome1{
+    position: fixed;
+    right: 35%;
+    top: 10%;
+    min-height: 20vh;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    filter: blur(5px);
+    
+}
+
+.chrome2{
+    position: fixed;
+    right: 65%;
+    bottom: -10%;
+    min-height: 20vh;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    filter: blur(2px);
+}
+.chrome3{
+    position: fixed;
+    right: 5%;
+    bottom: 0%;
+    min-height: 20vh;
+    mix-blend-mode: multiply;
+    opacity: 0.8;
+    filter: blur(5px);
+}
+
+.chrome4{
+    position: fixed;
+    right: 45%;
+    top: 10%;
+    min-height: 20vh;
+    mix-blend-mode: multiply;
+    opacity: 0.9;
+    filter: blur(25px);
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+.about-page{
+  display:flex ;
+  height: 100vh;
+  flex-direction: row;
+}
+
+.theo1{
+  max-height: auto;
+  filter: drop-shadow(0px 4px 100px rgba(0, 0, 0, 0.25));
+  
+  }
+
+.textbox{
+  height:auto;
+  color: #FFFFFF;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+  }
+
+  /* seoul pics */
+
+.seoulpics{
+
+  text-align: center;
+}
+
+.seoulpics img{
+  filter: drop-shadow(0px 4px 100px rgba(0, 0, 0, 0.25));
+  position: relative;
+  flex-wrap: wrap;
+  max-width: 25vw;
+  max-height: fit-content;
+}
+
+.seoulpics img:hover {
+  opacity: 70%;
+  /* mix-blend-mode: lighten; */
+  cursor: grab;
+  background-color:#DB5FBF;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.chibi{
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  overflow: hidden;
+}
+
+.theo2{
+  flex: 33.3%;
+  filter: drop-shadow(0px 4px 100px rgba(0, 0, 0, 0.25));
+}
+
+.ctheo{
+  flex: 33.3%;
+  filter: drop-shadow(0px 4px 100px rgba(0, 0, 0, 0.25));
+}
+
+.chibitext{
+  flex: 33.3%;
+  color: #FFFFFF;
+  margin: 10px;
+  text-align: center;
+  margin-top: 10%;
+  font-size:calc(12px + .8vw);
+  position: relative;
+}
+
+.soccer img{
+  margin-top: 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+footer{
+  background-color: #fafaff;
+  position: relative;
+  font-size:calc(12px + 0.5vw);
+  color: black;
+
+}
+
+footer .wrapper{
+  margin-bottom: 0;
+}
+
+.footerblocks{
+  display: flex;
+  flex-direction: row;
+
+  
+}
+
+.footerblock{
+  flex: 33.3%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerblock img{
+  width: 100%;
+}
+
+.footerblock a{
+  color: black;
+} 
+
+.footerblock a:hover{
+  opacity: 70%;
+  cursor: grab;
+  background-color:#DB5FBF;
+  cursor: pointer;
+}
+
+  /* Create the animation */
+@keyframes marquee {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+
+@font-face {
+    font-family: "TerminaW00-Demi";
+    src: url("//db.onlinewebfonts.com/t/faec7b39028890b34621e55089f6e247.eot");
+    src: url("//db.onlinewebfonts.com/t/faec7b39028890b34621e55089f6e247.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/faec7b39028890b34621e55089f6e247.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/faec7b39028890b34621e55089f6e247.woff") format("woff"), url("//db.onlinewebfonts.com/t/faec7b39028890b34621e55089f6e247.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/faec7b39028890b34621e55089f6e247.svg#TerminaW00-Demi") format("svg");
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 800px) {
+
+  .about-page{
+    flex-direction:column;
+    height: auto;
+  }
+
+  .chibi{
+    flex-direction: column;
+  }
+
+  .theo2{
+    width: 0%
+  }
+
+  footer{
+
+    font-size:calc(8px + 0.5vw);
+
+  }
+
+   }
+
+   /* big screen adjustments */
+@media only screen and (min-width: 800px) {
+
+  .theo1{
+    position: absolute;
+    max-height: 100%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    }
+
+    .textbox{
+      margin: 0px;
+      max-width: 30%;
+      font-size:calc(12px + .8vw);
+
+      }
+
+    .about-page{
+      justify-content: space-evenly;
+      gap: 30%;
+    }
+
+
+
+  }
